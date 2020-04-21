@@ -15,11 +15,17 @@ To generate clean images of handwritten day/month/year from the MNIST dataset, t
 python simulation.py --dir ~/Desktop/mnist --data name --num 10
 ```
 
+Example image:
+![year13.png](year13.png)
+
 For noisier images, try
 
 ```bash
 python simulation.py --dir ~/Desktop/mnist --speckle_noise --resize --underline_noise --data name --num 10
 ```
+
+Example image:
+![year13_noisy.png](year13_noisy.png)
 
 To generate first and last names, try
 
